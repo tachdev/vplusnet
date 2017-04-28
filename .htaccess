@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /vplusnet/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond $0 !^(index\.php|assets|robots\.txt)
+RewriteRule .* index.php/$0 [L]
+

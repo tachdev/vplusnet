@@ -1,0 +1,186 @@
+.well{border:0!important;box-shadow: none;padding: 0;margin-bottom: 0;}
+.pagination{margin:0;}
+.menu_table{margin-top:15px;}
+.panel-info{border:none;}
+.edit_user_account .panel-body {padding-bottom:73px;}
+.edit_user_account .panel-body.team{padding-bottom:5px;}
+.bootstrap-select{margin-bottom: 0!important;}
+
+input[type=file]#imageInput {
+
+	border: 1px solid #DDD;
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+	float:left;
+
+}
+
+#output{overflow: hidden;padding: 5px;width: 126px;height: 128px;}
+#output div.image_profile{display:block;border:1px solid #ccc;width: 120px;height: 120px;padding: 3px;background: #f3f3f3;float:left;}
+#output div.image_profile img{background: #f3f3f3;}
+#output div.image_profile form{float:left;border:1px solid #ccc;display: block;width: 200px;height: 50px;}
+
+#output_slider{overflow: hidden;padding: 5px;width: 500px;height: 286px;border: 1px solid #f2f2f2;margin-bottom:5px;}
+#output div.image_slider{display:block;border:1px solid #ccc;width: 120px;height: 120px;padding: 3px;background: #f3f3f3;float:left;}
+#output div.image_slider img{background: #f3f3f3;}
+#output div.image_slider form{float:left;border:1px solid #ccc;display: block;width: 200px;height: 50px;}
+
+
+#output_image{overflow: hidden;padding: 5px;width: 250px;height: 370px;}
+#output_image div.image_profile{overflow: hidden;display:block;border:1px dashed #ccc;width: 240px;height: 340px;padding: 3px;background: #f3f3f3;float:left;}
+#output_image div.image_profile img{background: #f3f3f3;}
+#output_image div.image_profile form{float:left;border:1px solid #ccc;display: block;width: 200px;height: 50px;}
+
+.uploadman {
+    width: 90px;
+    height: 30px;
+    background: url('../img/webimage/upload_button.gif') top left no-repeat;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    margin-top:0px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+div.uploadman input {
+    display: block !important;
+    width: 90px !important;
+    height: 30px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    cursor: pointer;
+    -webkit-appearance:none; 
+    position:absolute;
+}
+#loading-img{
+
+	position: absolute;
+    margin-top:-150px;
+    margin-left:230px;
+}
+
+.user_profile_basic .form-group{
+	
+	clear: both;
+	margin-bottom: 15px;
+	display: block;
+	overflow: hidden;
+
+}
+.user_switch_manager .form-group{
+
+	clear: both;
+	margin-bottom: 15px;
+	display: block;
+	overflow: hidden;
+
+}
+.switch-edit-user form .form-group{
+
+	clear: both;
+	margin-bottom: 15px;
+	display: block;
+	overflow: hidden;
+
+}
+.switch-edit-user form button{
+
+	margin-top:20px;
+	margin-left:28px;
+	
+}
+.add_team .input-group{
+
+	float:left;
+}
+.add_team button{
+
+	float:left;
+	padding-top: 9px;
+	margin-left: 5px;
+}
+.team_account{
+
+	background: #fff!important;
+	display: block;
+	overflow: hidden;
+
+}
+.team_account .team{float:left;}
+.team_account .teamman{float:left;}
+.team_active{
+
+	border: 1px solid #f2f2f2;
+	overflow: hidden;
+	padding: 10px 2px;
+	clear:both;
+}
+.add_team form .select_position .bootstrap-select{margin-bottom: 0px;height: 34px;background: #f2f2f2;}
+.add_team form .select_position {margin-left:4px;}
+button.selectpicker.btn-default{
+
+  color: #FFF!important;
+  background-color: #3BDBE9!important;
+  border-color: #3BDBE9!important;
+  
+}
+.match-add .col-xs-1.ratio{width: 10%!important;}
+table.matchtable thead tr th.col-xs-1{width: 3%!important;text-align: center;}
+
+.pagination>li>a:hover{
+
+	background-color: #0D111A;
+	border-color: #FFFFFF;
+	color: #fff;
+}
+.pagination>li>a{
+	
+	background-color: #666;
+	border-color: #FFFFFF;
+	color: #fff;
+	border-radius: 3px;
+}
+.twitter-typeahead{
+
+    display:block!important;
+}
+.tt-hint{
+	
+    border: 0px solid #CCCCCC!important;
+    border-radius: 8px 8px 8px 8px!important;
+    font-size: 14px!important;
+    height: 45px!important;
+    line-height: 30px!important;
+    outline: medium none!important;
+    padding: 30px 12px!important;
+    width: 250px!important;
+    display: none!important;
+}
+
+.tt-dropdown-menu {
+    width: 250px!important;     
+    background-color: #fff!important;
+    border: 1px solid #f2f2f2!important;
+    border-radius: 5px!important;
+    font-size: 14px!important;
+    color: #111!important;
+    margin-top:35px!important;
+    max-height: 150px!important;
+    overflow-y: auto!important;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2)!important;
+}
+.tt-suggestion {
+    padding: 10px 10px 5px 10px!important;
+    font-size: 14px!important;
+    line-height: 10px!important;
+}
+.tt-suggestion.tt-cursor { 
+    color: #fff!important;
+    background-color: #0097cf!important;
+}
+
+
+
+
